@@ -60,9 +60,9 @@ int main() {
 
 	int n= 500;
 	double sec = 0.0;
-	for (int i = 0; i < 10; ++i) {
+	for (int w = 0; w < 10; ++w) {
 
-		for (int i = 0; i < 10; ++i) {
+		for (int l = 0; l < 10; ++l) {
 			int* matching = new int[n];
 			bool* used = new bool[n];
 			int** g = new int*[n];
@@ -99,9 +99,9 @@ int main() {
 
 	cout << endl<<endl;
 	n = 1000;
-	for (int i = 0; i < 5; ++i) {
+	for (int w = 0; w < 5; ++w) {
 	
-		for (int i = 0; i < 10; ++i) {
+		for (int l = 0; l < 10; ++l) {
 			int* matching = new int[n];
 			bool* used = new bool[n];
 			int** g = new int*[n];
